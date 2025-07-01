@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "tetris-bucket"
+    bucket         = "s3bucket-project-devops"
     region         = "us-east-1"
-    key            = "s3bucket-project-devops"
+    key            = "EKS-DevSecOps-Tetris-Project/EKS-TF/terraform.tfstate"
     use_lockfile = true
     encrypt        = true
   }
